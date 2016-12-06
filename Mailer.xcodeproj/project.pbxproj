@@ -14,6 +14,7 @@
 		053C52131DF53BA600ADB954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053C52111DF53BA600ADB954 /* LaunchScreen.storyboard */; };
 		053C521E1DF53BA600ADB954 /* MailerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C521D1DF53BA600ADB954 /* MailerTests.swift */; };
 		053C52291DF53BA600ADB954 /* MailerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C52281DF53BA600ADB954 /* MailerUITests.swift */; };
+		053C52381DF53BE900ADB954 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053C52371DF53BE900ADB954 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		053C52241DF53BA600ADB954 /* MailerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		053C52281DF53BA600ADB954 /* MailerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailerUITests.swift; sourceTree = "<group>"; };
 		053C522A1DF53BA600ADB954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053C52371DF53BE900ADB954 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053C52381DF53BE900ADB954 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				053C521C1DF53BA600ADB954 /* MailerTests */,
 				053C52271DF53BA600ADB954 /* MailerUITests */,
 				053C52061DF53BA600ADB954 /* Products */,
+				053C52361DF53BE900ADB954 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				053C522A1DF53BA600ADB954 /* Info.plist */,
 			);
 			path = MailerUITests;
+			sourceTree = "<group>";
+		};
+		053C52361DF53BE900ADB954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				053C52371DF53BE900ADB954 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
