@@ -205,6 +205,7 @@
 				TargetAttributes = {
 					053C52041DF53BA500ADB954 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EPD5A4Z2R4;
 						ProvisioningStyle = Automatic;
 					};
 					053C52181DF53BA600ADB954 = {
@@ -422,9 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPD5A4Z2R4;
 				INFOPLIST_FILE = Mailer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kikuchi.Mailer;
+				PRODUCT_BUNDLE_IDENTIFIER = kikuchi.wataru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,9 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPD5A4Z2R4;
 				INFOPLIST_FILE = Mailer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kikuchi.Mailer;
+				PRODUCT_BUNDLE_IDENTIFIER = kikuchi.wataru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -515,6 +518,7 @@
 				053C522F1DF53BA600ADB954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		053C52301DF53BA600ADB954 /* Build configuration list for PBXNativeTarget "MailerTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +527,7 @@
 				053C52321DF53BA600ADB954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		053C52331DF53BA600ADB954 /* Build configuration list for PBXNativeTarget "MailerUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +536,7 @@
 				053C52351DF53BA600ADB954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

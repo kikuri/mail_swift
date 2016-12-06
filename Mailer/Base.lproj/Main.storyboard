@@ -26,17 +26,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="メール送信"/>
                                 <connections>
-                                    <action selector="mailTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="51H-a7-xku"/>
-                                    <action selector="onClickStartMailerBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WJK-l7-IW4"/>
+                                    <action selector="TappedMail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wme-Pr-dGC"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <outlet property="mailTapped" destination="ydD-Ce-6eB" id="lKt-RD-F86"/>
-                        <outlet property="startMailerBtn" destination="ydD-Ce-6eB" id="5gh-9o-Keg"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -15,14 +15,12 @@ class ViewController: UIViewController,MFMailComposeViewControllerDelegate {
         super.viewDidLoad()
     }
     
-    @IBOutlet weak var mailTapped: UIButton!
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
     
-    @IBAction func mailTapped(_ sender: Any) {
-        //メールが送信できるかどうかの確認は必ず必要
+    @IBAction func TappedMail(_ sender: Any) {
         if MFMailComposeViewController.canSendMail() {
             let e = MFMailComposeViewController()
             e.mailComposeDelegate = self //delegateの設定
@@ -36,7 +34,6 @@ class ViewController: UIViewController,MFMailComposeViewControllerDelegate {
             print("送信できません")
         }
     }
-   
     
    }
 
